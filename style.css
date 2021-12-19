@@ -29,7 +29,7 @@ h3 {
 
 img {
     max-width: 450px;
-    
+
     display: inline-block;
     margin: 25px 40px;
 
@@ -47,31 +47,32 @@ img {
 .second-container {
     display: flex;
     flex-direction: column;
-    
+
 }
 
-h1{
+h1 {
     font-size: 50px;
     margin-bottom: 40px;
 }
 
-.item{
+.item {
     font-size: 15px;
     margin-bottom: 40px;
 }
 
-.btn{
+.btn {
     background-color: rgb(59, 57, 57);
     color: white;
     width: 150px;
     padding: 15px;
     font-size: 13px;
+    margin: 0;
 }
 
-@media (max-width: 930px) {
+@media (max-width:930px) {
     .wraper {
         flex-wrap: wrap;
-        img
+
     }
 
     img {
@@ -82,16 +83,36 @@ h1{
         font-size: 12px;
     }
 
-    h1{
+    h1 {
         font-size: 20px;
     }
+
+
+
 }
 
-.baseline {
-    align-self: baseline;
+@media (max-width:414px) {
+
+    img {
+        width: 200px;
+    }
+
+    
+    .main-container {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        ;
+    }
+
 }
 
-footer { 
+
+
+
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
